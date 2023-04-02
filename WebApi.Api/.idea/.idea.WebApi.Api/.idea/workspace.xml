@@ -8,17 +8,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f17931a-3dfb-4c75-b896-27a920f83512" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Core.Application/Interfaces/IAppLogger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core.Application/Interfaces/IAuthenticatedUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core.Application/Interfaces/IMongoDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core.Application/Interfaces/IPasswordHasher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core.Application/Wrappers/JwtSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core.Features/Authentication/Commands/GetAuthenticationTokenForUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApi.Api/Controllers/AuthController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApi.Api/Controllers/Common/BaseApiController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApi.Api/Services/AppLogger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApi.Api/Services/AuthenticatedUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApi.Api/Services/MongoDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core.Application/Interfaces/IMongoDbServce.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core.Application/MongoDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApi.Api/Services/MongoDbService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApi.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApi.Api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Application/Core.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/Core.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Application/Interfaces/IMongoDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Application/obj/Core.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/Core.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Application/obj/Debug/net7.0/Core.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/Debug/net7.0/Core.Application.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Application/obj/Debug/net7.0/Core.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/Debug/net7.0/Core.Application.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Features/obj/Core.Features.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/obj/Core.Features.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Features/obj/Debug/net7.0/Core.Features.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/obj/Debug/net7.0/Core.Features.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Features/obj/Debug/net7.0/Core.Features.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/obj/Debug/net7.0/Core.Features.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Features/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Features/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Features/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Api/Services/MongoDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Api/WebApi.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/WebApi.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Api/obj/Debug/net7.0/WebApi.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/obj/Debug/net7.0/WebApi.Api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Api/obj/Debug/net7.0/WebApi.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/obj/Debug/net7.0/WebApi.Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Api/obj/WebApi.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/obj/WebApi.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +43,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1bc362ed8e78098c4d91511197558cc1cce7515d443c7960746fe140705b37/ConfigurationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4ed670d711d7b07aabb459cee330d6bff3b4811ae4b41973b7c84261c4ae/IMongoDatabase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b8583cb77a276fb9dbb7a8c129291eddb743424cae4f212cdbb0b092cd44115e/IMongoCollection.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -37,22 +55,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\micha\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\micha\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\micha\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\micha\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\micha\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\micha\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApi.Api: IIS Express">
     <configuration name="Core.Application" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Core.Application/Core.Application.csproj" />
@@ -123,7 +141,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680455704113</updated>
-      <workItem from="1680455705916" duration="6271000" />
+      <workItem from="1680455705916" duration="8246000" />
+      <workItem from="1680468645477" duration="450000" />
     </task>
     <servers />
   </component>

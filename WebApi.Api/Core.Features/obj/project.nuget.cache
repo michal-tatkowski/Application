@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "shCWVUS9f5b5+UjAc1uxCchZSOILIuzfsOiUNewrtnWikS7u0W94eavmE4olpFrfiHV8XtCL6gcGlas4cBFSoA==",
+  "dgSpecHash": "y6cey9Pq3eN/Zd8Jh4h+r7Pc8UPHd8Wc+aWvfdqKwSFq5c+a2ZeusRgqkPpxE8e7BQ3DDc8183ztxRJaDJgv3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Features\\Core.Features.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,10 @@
     "C:\\Users\\micha\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0-preview.2.23128.3\\microsoft.extensions.configuration.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-preview.2.23128.3\\microsoft.extensions.configuration.abstractions.8.0.0-preview.2.23128.3.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.2.23128.3\\microsoft.extensions.primitives.8.0.0-preview.2.23128.3.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\mongodb.bson\\2.19.1\\mongodb.bson.2.19.1.nupkg.sha512",
