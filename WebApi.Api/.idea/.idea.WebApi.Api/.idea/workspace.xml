@@ -8,30 +8,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f17931a-3dfb-4c75-b896-27a920f83512" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Core.Application/Interfaces/IMongoDbServce.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core.Application/MongoDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApi.Api/Services/MongoDbService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core.Application/Exceptions/ApiException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core.Domain/Models/Common/BaseEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core.Domain/Models/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core.Enums/Errors/BasicError.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core.Enums/Errors/Common/ErrorCode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core.Enums/Quantity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApi.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApi.Api/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core.Application/Core.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/Core.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core.Application/Interfaces/IMongoDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Application/MongoDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/MongoDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core.Application/obj/Core.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/Core.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Application/obj/Core.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/Core.Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Application/obj/Debug/net7.0/Core.Application.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/Debug/net7.0/Core.Application.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core.Application/obj/Debug/net7.0/Core.Application.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/Debug/net7.0/Core.Application.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core.Application/obj/Debug/net7.0/Core.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/Debug/net7.0/Core.Application.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Features/Authentication/Commands/GetAuthenticationTokenForUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/Authentication/Commands/GetAuthenticationTokenForUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Features/Core.Features.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/Core.Features.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core.Features/obj/Core.Features.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/obj/Core.Features.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Features/obj/Core.Features.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/obj/Core.Features.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Features/obj/Debug/net7.0/Core.Features.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/obj/Debug/net7.0/Core.Features.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core.Features/obj/Debug/net7.0/Core.Features.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/obj/Debug/net7.0/Core.Features.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core.Features/obj/Debug/net7.0/Core.Features.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/obj/Debug/net7.0/Core.Features.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core.Features/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core.Features/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Features/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core.Features/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Features/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi.Api/Services/MongoDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Api.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Api/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/Controllers/AuthController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApi.Api/WebApi.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/WebApi.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Api/obj/Debug/net7.0/WebApi.Api.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/obj/Debug/net7.0/WebApi.Api.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApi.Api/obj/Debug/net7.0/WebApi.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/obj/Debug/net7.0/WebApi.Api.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApi.Api/obj/Debug/net7.0/WebApi.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/obj/Debug/net7.0/WebApi.Api.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApi.Api/obj/WebApi.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/obj/WebApi.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi.Api/obj/WebApi.Api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/obj/WebApi.Api.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApi.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApi.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApi.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi.Api/obj/project.packagespec.json" afterDir="false" />
@@ -41,11 +55,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1bc362ed8e78098c4d91511197558cc1cce7515d443c7960746fe140705b37/ConfigurationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4ed670d711d7b07aabb459cee330d6bff3b4811ae4b41973b7c84261c4ae/IMongoDatabase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b8583cb77a276fb9dbb7a8c129291eddb743424cae4f212cdbb0b092cd44115e/IMongoCollection.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

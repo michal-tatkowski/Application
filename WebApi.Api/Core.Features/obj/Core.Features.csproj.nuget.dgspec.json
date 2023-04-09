@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Features\\Core.Features.csproj": {}
+    "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Features\\Core.Features.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj": {
+    "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj",
         "projectName": "Core.Application",
-        "projectPath": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj",
-        "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Application\\obj\\",
+        "projectPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,7 +31,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Enums\\Core.Enums.csproj": {
+                "projectPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Enums\\Core.Enums.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -69,24 +73,168 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Features\\Core.Features.csproj": {
+    "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Domain\\Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Features\\Core.Features.csproj",
-        "projectName": "Core.Features",
-        "projectPath": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Features\\Core.Features.csproj",
-        "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Features\\obj\\",
+        "projectUniqueName": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Domain\\Core.Domain.csproj",
+        "projectName": "Core.Domain",
+        "projectPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Domain\\Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Enums\\Core.Enums.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Enums\\Core.Enums.csproj",
+        "projectName": "Core.Enums",
+        "projectPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Enums\\Core.Enums.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Enums\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ardalis.SmartEnum": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.0-preview.2.23128.3, )"
+            },
+            "Microsoft.Identity.Model.Extensions": {
+              "target": "Package",
+              "version": "[2.0.1459, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.28.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.28.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Features\\Core.Features.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Features\\Core.Features.csproj",
+        "projectName": "Core.Features",
+        "projectPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Features\\Core.Features.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Features\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -101,8 +249,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj": {
-                "projectPath": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj"
+              "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj": {
+                "projectPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj"
+              },
+              "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Domain\\Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Domain\\Core.Domain.csproj"
               }
             }
           }
@@ -117,6 +268,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "MediatR.Contracts": {
               "target": "Package",
               "version": "[1.0.1, )"
@@ -138,7 +293,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

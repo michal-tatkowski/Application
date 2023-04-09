@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using System.Threading;
+using Core.Features.Authentication.Commands;
 using MediatR;
 
 namespace WebApi.Api.Controllers;
