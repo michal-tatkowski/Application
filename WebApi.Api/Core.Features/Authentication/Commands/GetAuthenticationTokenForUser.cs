@@ -2,6 +2,7 @@
 using Core.Application.Wrappers;
 using System.Security.Claims;
 using System.Text;
+using Core.Application;
 using Core.Application.Exceptions;
 using Core.Application.Interfaces;
 using Core.Domain.Models;
@@ -9,6 +10,8 @@ using Core.Enums.Errors;
 using MediatR;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using MongoDB.Bson;
+using MongoDB.Driver;
 
 namespace Core.Features.Authentication.Commands;
 
@@ -47,6 +50,9 @@ internal sealed class GetAuthenticationTokenForUserQueryHandler : IRequestHandle
 
     private async Task<User> GetUserAsync(string login)
     {
+        var client = new MongoClient("mongodb://localhost:27017");
+        var database = client.GetDatabase("application");
+        var collection = database.GetCollection<BsonDocument>("User")
         return new User();
     }
 
