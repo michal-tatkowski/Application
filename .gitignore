@@ -1,0 +1,22 @@
+# Visual Studio / JetBrains / Rider / MonoDevelop
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+*.sln.docstates
+
+# NuGet
+*/packages/*
+*.nupkg
+!.nuget/packages/repositories.config
+
+# MSTest
+*.trx
+*.vsmdi
+
+# Test Results
+TestResults/
+[Bb]in/
+[Oo]bj/
