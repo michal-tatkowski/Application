@@ -23,37 +23,31 @@ public sealed record GetAuthenticationTokenForUserQuery() : IRequest<string>
 
 internal sealed class GetAuthenticationTokenForUserQueryHandler : IRequestHandler<GetAuthenticationTokenForUserQuery, string>
 {
-    private readonly IMongoDbService context;
+    private readonly MongoDbContext dbContext;
     private readonly IPasswordHasher passwordHasher;
     private readonly JwtSettings jwtSettings;
     
-    public GetAuthenticationTokenForUserHandler(IMongoDbService<T> context, IOptions<JwtSettings> jwtSettings, IPasswordHasher passwordHasher)
+    public GetAuthenticationTokenForUserHandler(MongoDbContext dbContext, IOptions<JwtSettings> jwtSettings, IPasswordHasher passwordHasher)
     {
-        this.context = context;
+        this.dbContext = dbContext;
         this.passwordHasher = passwordHasher;
         this.jwtSettings = jwtSettings.Value;
     }
 
     public async Task<string> Handle(GetAuthenticationTokenForUserQuery request, CancellationToken cancellationToken)
     {
-        var user = GetUserAsync(request.Login);
-
-        if (user is null)
-        {
-            throw new ApiException(BasicError.ERR_INVALID_CREDENTIALS);
-        }
-
+        var user = await GetUserAsync(request.Login, cancellationToken).ConfigureAwait(false);
+        
         var hashedPassword = passwordHasher.Hash(request.Password);
 
         return GetNewJwtTokenForUserAsync(user);
     }
 
-    private async Task<User> GetUserAsync(string login)
+    private async Task<User> GetUserAsync(string login, CancellationToken cancellationToken)
     {
-        var client = new MongoClient("mongodb://localhost:27017");
-        var database = client.GetDatabase("application");
-        var collection = database.GetCollection<BsonDocument>("User")
-        return new User();
+        return await dbContext.Users.Find(x => x.Login == login).FirstOrDefaultAsync(cancellationToken)
+            .ConfigureAwait(false)
+            ?? throw new ApiException(UserError.)
     }
 
     private string GetNewJwtTokenForUserAsync(User user)

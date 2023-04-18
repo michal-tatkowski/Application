@@ -598,6 +598,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Core.Domain": "1.0.0",
           "Core.Enums": "1.0.0",
           "Microsoft.Extensions.Configuration": "8.0.0-preview.2.23128.3",
           "MongoDB.Driver": "2.19.1"
@@ -1787,23 +1788,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dell\\.nuget\\packages\\": {},
+    "C:\\Users\\micha\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Features\\Core.Features.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Features\\Core.Features.csproj",
       "projectName": "Core.Features",
-      "projectPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Features\\Core.Features.csproj",
-      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Features\\obj\\",
+      "projectPath": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Features\\Core.Features.csproj",
+      "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Features\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1818,11 +1819,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj": {
-              "projectPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj"
+            "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj": {
+              "projectPath": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj"
             },
-            "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Domain\\Core.Domain.csproj": {
-              "projectPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Domain\\Core.Domain.csproj"
+            "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Domain\\Core.Domain.csproj": {
+              "projectPath": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Domain\\Core.Domain.csproj"
             }
           }
         }
@@ -1862,7 +1863,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   },

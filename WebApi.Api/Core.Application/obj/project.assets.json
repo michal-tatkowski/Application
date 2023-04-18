@@ -565,6 +565,16 @@
           "lib/net6.0/ZstdSharp.dll": {}
         }
       },
+      "Core.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Core.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.Domain.dll": {}
+        }
+      },
       "Core.Enums/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1678,6 +1688,11 @@
         "zstdsharp.port.nuspec"
       ]
     },
+    "Core.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Core.Domain/Core.Domain.csproj",
+      "msbuildProject": "../Core.Domain/Core.Domain.csproj"
+    },
     "Core.Enums/1.0.0": {
       "type": "project",
       "path": "../Core.Enums/Core.Enums.csproj",
@@ -1686,29 +1701,30 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Core.Domain >= 1.0.0",
       "Core.Enums >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 8.0.0-preview.2.23128.3",
       "MongoDB.Driver >= 2.19.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dell\\.nuget\\packages\\": {},
+    "C:\\Users\\micha\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj",
       "projectName": "Core.Application",
-      "projectPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj",
-      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Application\\obj\\",
+      "projectPath": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Application\\Core.Application.csproj",
+      "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1723,8 +1739,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Enums\\Core.Enums.csproj": {
-              "projectPath": "C:\\Users\\dell\\Documents\\GitHub\\Application\\WebApi.Api\\Core.Enums\\Core.Enums.csproj"
+            "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Domain\\Core.Domain.csproj": {
+              "projectPath": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Domain\\Core.Domain.csproj"
+            },
+            "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Enums\\Core.Enums.csproj": {
+              "projectPath": "C:\\Users\\micha\\OneDrive\\Dokumenty\\GitHub\\Application\\WebApi.Api\\Core.Enums\\Core.Enums.csproj"
             }
           }
         }
@@ -1764,7 +1783,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   },
